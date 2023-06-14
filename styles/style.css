@@ -59,7 +59,7 @@ blockquote {
 }
 
 .cover {
-  padding: 5px 24px 30px 20px;
+  padding: 7px 23px 29px 20px;
   min-height: 221px;
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@ blockquote {
   display: block;
   font-family: "EB Garamond";
   font-weight: 400;
-  line-height: 102%;
+  line-height: 100%;
 }
 
 .text-center {
@@ -88,7 +88,7 @@ blockquote {
 }
 
 .intro {
-  padding: 0 20px 38px 20px;
+  padding: 0 20px 37px 20px;
   display: flex;
   flex-direction: column;
   row-gap: 24px;
@@ -133,7 +133,6 @@ blockquote {
   font-weight: 500;
   line-height: 115%;
   font-size: 28px;
-  line-height: 115%;
 }
 
 .reasons-span {
@@ -169,7 +168,7 @@ blockquote {
 }
 
 .card {
-  padding: 20px;
+  padding: 20px 21px;
 }
 
 .card_theme_dark {
@@ -275,4 +274,5 @@ blockquote {
 .footer__link {
   text-decoration: none;
   color: #f5f5f5;
+  font-size: 14px;
 }
