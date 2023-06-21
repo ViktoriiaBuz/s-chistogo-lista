@@ -74,7 +74,7 @@ blockquote {
 
 .accent-span {
   display: block;
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", "sans-serif";
   font-weight: 400;
   line-height: 100%;
 }
@@ -102,11 +102,14 @@ blockquote {
   font-size: 16px;
   color: #cccccc;
   font-weight: 400;
+  line-height: 120%;
 }
 
 .intro__date {
   color: #cccccc;
   white-space: nowrap;
+  line-height: 120%;
+  font-size: 16px;
 }
 
 .intro__main-text {
@@ -129,7 +132,7 @@ blockquote {
 }
 
 .content-section__subtitle {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", "sans-serif";
   font-weight: 500;
   line-height: 115%;
   font-size: 28px;
@@ -186,7 +189,7 @@ blockquote {
 
 .how-to__title {
   color: #f5f5f5;
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", "sans-serif";
   font-weight: 500;
   font-size: 28px;
   line-height: 115%;
@@ -236,7 +239,7 @@ blockquote {
 
 .card_theme_dark .card__title {
   color: #f5f5f5;
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", "sans-serif";
   font-weight: 500;
   font-size: 22px;
 }
@@ -246,9 +249,14 @@ blockquote {
 }
 
 .card_text-only .card__title {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", "sans-serif";
   font-weight: 500;
   font-size: 22px;
+  color: #131313;
+}
+
+.card_text-only .card__text {
+  color: #131313;
 }
 
 .footer {
